@@ -6,4 +6,8 @@ In the project directory, you can run it using:
 
 ### `yarn start`
 
+or
+
+### `npm start`
+
 Have fun!
