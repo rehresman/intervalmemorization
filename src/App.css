@@ -1,0 +1,135 @@
+.App {
+	text-align: center;
+	background-color: #282c34;
+	transition: 0.1s linear;
+	min-height: 100vh;
+	position: relative;
+}
+
+.app-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.bg-white {
+	background-color: whitesmoke;
+}
+
+.border {
+	border: 1px solid whitesmoke;
+	border-radius: 3vh;
+	padding: 3vw;
+}
+
+.collapsed {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.collapsed:hover {
+	color: white;
+}
+
+#controls {
+	text-align: left;
+	transition: 0.09s linear;
+	font-size: 1.25rem;
+}
+
+.controls-view {
+	width: 100vw;
+}
+
+.darkgray {
+	color: darkgray;
+}
+
+.expanded {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	padding: 3vw;
+}
+
+#flashcard {
+	height: 100%;
+	font-size: 17vh;
+	transition: 0.1s linear;
+	touch-action: manipulation;
+	padding: 3vw;
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+
+main {
+	position: relative;
+}
+
+nav {
+	height: 10vh;
+}
+
+.text-dark {
+	color: #282c34;
+}
+
+.interval {
+	font-size: 8vh;
+}
+
+.invisible {
+	opacity: 0 !important;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+.lightgray {
+	color: lightgray;
+}
+
+.note {
+	font-size: 16vh;
+}
+
+#oops {
+	cursor: pointer;
+}
+
+.show {
+	visibility: visible;
+}
+
+.smooth {
+	transition: 0.3s ease-out;
+}
+
+.tiny {
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin-left: 32px;
+	left: 30px;
+	transform: rotate(360deg);
+	visibility: hidden;
+}
+
+.visible {
+	opacity: 1;
+}
